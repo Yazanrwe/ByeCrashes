@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "byecrashes",
+  "version": "${version}",
+  "name": "ByeCrashes",
+  "description": "Recovers from render and tick exceptions instead of crashing, and tells you what caused a crash: which mod, or Java.",
+  "authors": ["olliE bench"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.byecrashes.ByeCrashesClient"]
+  },
+  "mixins": ["byecrashes.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "dev.byecrashes.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": ["MinecraftClientMixin", "CrashReportMixin"],
+  "injectors": { "defaultRequire": 0 }
+}
